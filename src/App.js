@@ -88,6 +88,10 @@ class App extends React.Component {
           />
         </div>
         <TodoList toggleTask={this.toggleTask} tasks={this.state.tasks} />
+        <footer>
+          <div>Icons made by <a className='icon' href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a className='icon' href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
+        </footer>
       </div>
     );
   }
