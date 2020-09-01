@@ -12,10 +12,10 @@ export default class TodoForm extends React.Component {
             value={this.props.currentInput}
             onChange={this.props.handleChanges}
           />
-          <button>Add New Task!</button>
+          <button>Add Task</button>
         </form>
         <button onClick={this.props.clearCompleted}>
-          Clear Completed
+            Clear Finished
         </button>
       </>
     );
